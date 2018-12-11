@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+} 
+
+body {
+	background-image: url(../images/background-pattern-design-31.png);
+	background-color: #ffffff; 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #0c6e25;
+}
+
+.crystal-pic {
+    width: 150px;
+    cursor: pointer;
+}
+
+#game-title {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #a86518;
+    color: #ffffff;
+    max-width: 100%;
+    margin: 6px auto auto 6px;
+}
+
+#game-rules {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f3ece5;
+    max-width: 100%;
+    margin: 6px auto auto 6px;
+}
+
+#random-number {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    background-color: #069e64;
+    color: #21145a;
+    height: 140px;
+    margin: 6px;
+}
+
+#running-score {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 22px;
+    background-color: #28c6e2;
+    color: #10069c;
+    margin: 6px;
+}
+
+#total-score-display {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    background-color: #05595f;
+    color: #ffffff;
+    max-width: 100%;
+    margin: 6px auto auto 6px;
+}
+
+#score-display {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    background-color: #05595f;
+    color: #ffffff;
+    max-width: 100%;
+    margin: 6px auto auto 6px;
+}
