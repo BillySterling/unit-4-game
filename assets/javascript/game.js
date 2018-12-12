@@ -48,12 +48,10 @@ $(document).ready(function() {
         if (totalScore === randomNumber) {
             wins++;
             $("#wins-counter").text(wins);
-            $("#running-score").text("WINNER!");
             resetGame();
         } else if (totalScore > randomNumber) {
             losses++;
             $("#losses-counter").text(losses);
-            $("#running-score").text("YOU LOST!");
             resetGame();
         } 
     }
