@@ -123,16 +123,19 @@ footer {
 	.container {
 		max-width: 600px;
     }
+    #random-number {
+        height: 70px;
+    }
+    #running-score {
+        font-size: 26px;
+    }
     footer {
         height: 50px;
         width: 70%;   
         margin: 50px auto auto 1px;
-        }
-        .crystal-pic {
-            width: 125px;
-            cursor: pointer;
-        }
     }
-
-
-
+    .crystal-pic {
+        width: 125px;
+        cursor: pointer;
+    }
+}
