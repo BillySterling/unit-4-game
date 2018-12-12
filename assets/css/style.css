@@ -69,25 +69,70 @@ body {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     height: 50px;
-    width: 100%;
+    width: 20%;   
     background: #a86518;
-    border-top: 9px solid #4aaaa5;
+    border: 3px solid #4aaaa5;
     color: white;
     text-align: center;
+    margin: 60px auto auto 1px;
     }
 
-  footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
+.footer-copyright {
+    font-size: 16px;
+    color: #ffffff;
+    } 
+
+
+/* device responsive media queries */
+
+@media screen and (max-width: 1190px) {
+	.container {
+	 	max-width: 1150px;
     }
- 
-#footerText {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 10px;
-    color: #cccccc;
+    footer {
+        height: 50px;
+        width: 25%;   
+        margin: 50px auto auto 1px;
+        }
+}
+
+@media screen and (max-width: 980px) {
+	.container {
+	 	max-width: 940px;
     }
+    footer {
+        height: 50px;
+        width: 40%;   
+        margin: 50px auto auto 1px;
+        }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+    footer {
+        height: 50px;
+        width: 60%;   
+        margin: 50px auto auto 1px;
+        }
+}
+
+@media screen and (max-width: 640px) {
+	.container {
+		max-width: 600px;
+    }
+    footer {
+        height: 50px;
+        width: 70%;   
+        margin: 50px auto auto 1px;
+        }
+        .crystal-pic {
+            width: 125px;
+            cursor: pointer;
+        }
+    }
+
+
+

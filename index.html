@@ -21,14 +21,14 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-1" id="game-title">
+            <div class="col-lg-1" id="game-title">
                 <p>
                     <h1>CrystalsCollector</h1>
                 </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4" id="game-rules">
+            <div class="col-lg-4" id="game-rules">
                 <p>You will be given a random number at the start of the game.</p>
                 <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
                 <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
@@ -40,41 +40,53 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-2" id="random-number">50</div>          
-            <div class="col-sm-auto" id="running-score">
+            <div class="col-lg-2" id="random-number">50</div>          
+            <div class="col-lg-auto" id="running-score">
                 <p>Wins:  <span id="wins-counter">0</span></p>
                 <p>Losses:  <span id="losses-counter">0</span></p>       
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-1">
+            <div class="d-inline p-2">
                 <img class="crystal-pic" id="sapphire" alt="Sapphire" src="assets/images/blue-gem.jpg">
             </div>          
-            <div class="col-sm-1">
+            <div class="d-inline p-2">
                 <img class="crystal-pic" id="emerald" alt="Emerald" src="assets/images/green-gem.jpg">
             </div>
-            <div class="col-sm-1">
+            <div class="d-inline p-2">
                 <img class="crystal-pic" id="ruby" alt="Ruby" src="assets/images/red-gem.jpg">
             </div>          
-            <div class="col-sm-1">
+            <div class="d-inline p-2">
                 <img class="crystal-pic" id="citrine" alt="Citrine" src="assets/images/yellow-gem.jpg">
             </div>   
         </div>                     
         <div class="row">
-            <div class="col-sm-2" id="total-score-display">Your total score is:</div> 
+            <div class="col-lg-2" id="total-score-display">Your total score is:</div>
         </div>
 
         <div class="row">
-                <div class="col-sm-2" id="score-display">0</div> 
+                <div class="col-lg-2" id="score-display">0</div> 
         </div>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-2">© 2018 Copyright:
+                <a href="https://billysterling.github.io/Responsive-Portfolio/"> Billy Sterling</a>
+            </div>
+
+        </footer>
 
     </div> 
 
+    <!--
     <footer class="footer">
         <div class="container">
             <div id="footerText">&copy; Copyright 2018 Billy Sterling</div>
         </div>
     </footer>
+    -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>  
