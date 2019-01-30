@@ -51,7 +51,7 @@ $(document).ready(function() {
         if (totalScore === randomNumber) {
             wins++;
             $("#wins-counter").text(wins);
-            $("#total-score-display").text("You WIN!");
+            $("#total-score-display").text("You WON!");
             resetGame();
         } else if (totalScore > randomNumber) {
             losses++;
@@ -64,6 +64,7 @@ $(document).ready(function() {
     // reset relevant game values
     function resetGame() {
         totalScore = 0;
+        $("#score-display").text(totalScore);
         randomNumber = Math.floor(Math.random() * 102) +19;
         $("#random-number").text(randomNumber); 
         sapphireVal = Math.floor(Math.random() * 12) + 1;
