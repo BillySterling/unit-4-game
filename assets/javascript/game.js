@@ -21,37 +21,42 @@ $(document).ready(function() {
     $("#sapphire").on("click", function(){
         totalScore += sapphireVal;
         $("#score-display").text(totalScore);
+        $("#total-score-display").text("Your total score is:");
         runGame();
     });
 
     $("#emerald").on("click", function(){
         totalScore += emeraldVal;
         $("#score-display").text(totalScore);
+        $("#total-score-display").text("Your total score is:");
         runGame();
     });
 
     $("#ruby").on("click", function(){
         totalScore += rubyVal;
         $("#score-display").text(totalScore);
+        $("#total-score-display").text("Your total score is:");
         runGame();
     });
     
     $("#citrine").on("click", function(){
         totalScore += citrineVal;
         $("#score-display").text(totalScore);
+        $("#total-score-display").text("Your total score is:");
         runGame();
     });
-
 
     // main game
     function runGame() {
         if (totalScore === randomNumber) {
             wins++;
             $("#wins-counter").text(wins);
+            $("#total-score-display").text("You WON!");
             resetGame();
         } else if (totalScore > randomNumber) {
             losses++;
             $("#losses-counter").text(losses);
+            $("#total-score-display").text("Sorry, you lost!");
             resetGame();
         } 
     }
@@ -59,14 +64,14 @@ $(document).ready(function() {
     // reset relevant game values
     function resetGame() {
         totalScore = 0;
+        $("#score-display").text(totalScore);
         randomNumber = Math.floor(Math.random() * 102) +19;
         $("#random-number").text(randomNumber); 
         sapphireVal = Math.floor(Math.random() * 12) + 1;
         emeraldVal = Math.floor(Math.random() * 12) + 1;
         rubyVal = Math.floor(Math.random() * 12) + 1;
         citrineVal = Math.floor(Math.random() * 12) + 1;
-    }
+    };
 
-
-    })
+})
     
