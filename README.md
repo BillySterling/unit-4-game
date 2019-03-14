@@ -22,6 +22,11 @@ A fun and interactive memory game for web browsers. This time, the app must dyna
 
    * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. The user's score (and score counter) will reset to zero.
 
+### Screenshot
+
+![Landing Page Image](screenshot.png)
+
+
 
 https://billysterling.github.io/unit-4-game/
 
