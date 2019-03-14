@@ -1,6 +1,6 @@
 # Cystal Collector Game - unit-4-game - jQuery Assignment
 
-In this assignment, we created another fun and interactive game for web browsers. This time, the app must dynamically update HTML pages with the jQuery library.
+A fun and interactive memory game for web browsers. This time, the app must dynamically update HTML pages with the jQuery library.
 
 ### Here's how the app works:
 

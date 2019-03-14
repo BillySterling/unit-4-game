@@ -1,4 +1,4 @@
-// 12/5/2018 - Guess the state hangman game - Georgia Tech coding bootcamp
+/*eslint-env jquery*/
 $(document).ready(function() {
 
     // variables
@@ -71,7 +71,7 @@ $(document).ready(function() {
         emeraldVal = Math.floor(Math.random() * 12) + 1;
         rubyVal = Math.floor(Math.random() * 12) + 1;
         citrineVal = Math.floor(Math.random() * 12) + 1;
-    };
+    }
 
 })
     

@@ -1,0 +1,26 @@
+{
+  "name": "unit-4-game",
+  "version": "1.0.0",
+  "description": "Crystal Collector Game",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BillySterling/unit-4-game.git"
+  },
+  "keywords": [
+    "jQuery",
+    "HTML"
+  ],
+  "author": "Billy Sterling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BillySterling/unit-4-game/issues"
+  },
+  "homepage": "https://github.com/BillySterling/unit-4-game#readme",
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
+}
